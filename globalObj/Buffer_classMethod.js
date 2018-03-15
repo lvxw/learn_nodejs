@@ -27,7 +27,7 @@ console.log("********************")
 
 // 标注输入，其实数据存储在Buffer对象中
 process.stdout.write("请输入数据：")
-process.stdin.resume()
+// process.stdin.resume()
 process.stdin.on('data',function (data) {
     console.log(typeof data)
     console.log(data)
